@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  background: #fcfbfc;
+  display: flex;
+}
+
+.demo-link {
+  padding: 0.5rem 1rem;
+  a {
+    color: black;
+    cursor: pointer;
+  }
+}
+
+.buttonStyle {
+  background: forestGreen;
+  padding: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.container {
+  width: 1200px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+@import "../src/sass.scss";
